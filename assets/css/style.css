@@ -2166,7 +2166,7 @@ p {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 10px 0;
+  padding: 5px 0;
   z-index: 99; }
   .navbar-area .navbar {
     position: relative;
@@ -2231,7 +2231,7 @@ p {
         line-height: 24px;
         font-weight: 700;
         padding: 26px 0;
-        color: #fff;
+        color: #000000;
         text-transform: uppercase;
         position: relative;
         opacity: 0.8;
@@ -2360,16 +2360,18 @@ p {
        10.SLIDER css 
 ===========================*/
 .carousel-item {
-  background-color: #2b2a2a;
+  /*background-color: #2b2a2a;*/
   position: relative; }
-  .carousel-item::before {
+  .carousel-item::before 
+  {
     position: absolute;
     content: '';
     width: 33%;
     height: 100%;
-    background: -webkit-linear-gradient(#4B1F59 0%,#F28379 100%);
+    /*background: -webkit-linear-gradient(#4B1F59 0%,#F28379 100%);
     background: -o-linear-gradient(#4B1F59 0%,#F28379 100%);
     background: linear-gradient(#4B1F59 0%,#F28379 100%);
+    */
     top: 0;
     right: 15%;
     -webkit-transform: skewX(20deg);
@@ -2405,6 +2407,7 @@ p {
   position: relative;
   z-index: 9;
   padding-top: 240px;
+  padding-left: 40px;
   padding-bottom: 200px; }
   @media (max-width: 767px) {
     .slider-content {
@@ -3245,8 +3248,56 @@ p.form-message.success, p.form-message.error {
     background-color: #0067f4; }
 
 .typing{
-  color: white;
+  color: #383838;
   
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  /*background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  */
+  background-image: linear-gradient(-60deg, #D04F9A 50%, #C1B9C1 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+/*
+.content {
+  background-color:rgba(255,255,255,.8);
+  border-radius:.25em;
+  box-shadow:0 0 .25em rgba(0,0,0,.25);
+  box-sizing:border-box;
+  left:50%;
+  padding:10vmin;
+  position:fixed;
+  text-align:center;
+  top:50%;
+  transform:translate(-50%, -50%);
+}
+*/
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
