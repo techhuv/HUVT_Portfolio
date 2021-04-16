@@ -2367,9 +2367,9 @@ p {
     content: '';
     width: 33%;
     height: 100%;
-    background: -webkit-linear-gradient(#F28379 0%,#4B1F59 100%);
-    background: -o-linear-gradient(#F28379 0%,#4B1F59 100%);
-    background: linear-gradient(#F28379 0%,#4B1F59 100%);
+    background: -webkit-linear-gradient(#4B1F59 0%,#F28379 100%);
+    background: -o-linear-gradient(#4B1F59 0%,#F28379 100%);
+    background: linear-gradient(#4B1F59 0%,#F28379 100%);
     top: 0;
     right: 15%;
     -webkit-transform: skewX(20deg);
@@ -3243,5 +3243,10 @@ p.form-message.success, p.form-message.error {
   .back-to-top:hover {
     color: #fff;
     background-color: #0067f4; }
+
+.typing{
+  color: white;
+  
+}
 
 /*# sourceMappingURL=style.css.map */
