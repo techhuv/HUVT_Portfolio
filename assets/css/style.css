@@ -3301,3 +3301,7 @@ p.form-message.success, p.form-message.error {
     transform:translateX(25%);
   }
 }
+
+span.typed-cursor {
+    display: none;
+}

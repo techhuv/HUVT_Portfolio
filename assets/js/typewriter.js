@@ -1,6 +1,6 @@
 let typed = new Typed(".typing", {
-    strings: ["Hi I am Sahil.", "This typing animation is very easy.", "You can easily make animation like this.", "And don't forget to Follow Me.","Thanks!"],
+    strings: ["Freelancers", "Python Developers", "Data and Web Scraping Experts", "Data Analysts","Automation Experts","Machine Learning Enthusiasts"],
     typeSpeed: 100,
-    backSpeed: 60,
+    backSpeed: 70,
     loop: true,
   });
