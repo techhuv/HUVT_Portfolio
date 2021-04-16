@@ -2778,7 +2778,7 @@ p {
        15.ABOUT css 
 ===========================*/
 .about-area {
-  padding-top: 80px;
+  padding-top: 30px;
   padding-bottom: 130px;
   position: relative; }
   .about-area .about-title .sub-title {
@@ -2820,6 +2820,7 @@ p {
           .about-area .about-accordion .accordion .card .card-header a {
             font-size: 16px; } }
         .about-area .about-accordion .accordion .card .card-header a::before {
+          display: none;
           content: '\ea58';
           font-family: 'LineIcons';
           position: absolute;
@@ -2835,7 +2836,14 @@ p {
     .about-area .about-accordion .accordion .card .card-body {
       padding: 20px 20px 0; }
   .about-area .about-image img {
-    width: 100%; }
+    width: 100%;
+    position: relative;
+    top: -40px;
+    /*padding-bottom: 200%;*/
+    /*position: sticky;*/
+   /* top: 80px;
+  right: 0;*/ }
+
 
 /*===========================
       26.TESTIMONIAL css 
@@ -3304,4 +3312,21 @@ p.form-message.success, p.form-message.error {
 
 span.typed-cursor {
     display: none;
+}
+
+
+.about-bg-transparent
+ { 
+
+  /*background-color: rgba(255, 255, 255, 0.5); */
+ width: 350px;
+
+  height: 250px;
+  /*border-radius: 30px;*/
+  text-align: justify;
+  line-height: 250px;
+  /*color: white;*/
+  padding-bottom: 80%;
+  padding-top: 10%;
+  margin: 0 auto;
 }
