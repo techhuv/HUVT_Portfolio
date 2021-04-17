@@ -2532,15 +2532,15 @@ p {
 /*===== features TWO =====*/
 .features-area {
   background-color: #f4f6f7;
-  padding-top: 120px;
+  padding-top: 70px;
   padding-bottom: 130px; }
 
 .single-features {
   padding: 40px 20px 52px;
   background-color: #fff; }
   .single-features .features-title-icon .features-title a {
-    font-size: 36px;
-    line-height: 45px;
+    font-size: 30px;
+    line-height: 40px;
     color: #121212;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
