@@ -2564,6 +2564,7 @@ p {
       color: #0067f4; }
   .single-features .features-title-icon .features-icon {
     position: relative;
+    /*opacity: 50%;*/
     display: inline-block; }
     .single-features .features-title-icon .features-icon i {
       font-size: 88px;
@@ -2574,14 +2575,17 @@ p {
     .single-features .features-title-icon .features-icon .shape {
       position: absolute;
       top: 0;
-      left: 0; }
+      left: 0; 
+      opacity: 40%;
+      }
+
   .single-features .features-content .text {
     font-size: 14px;
     line-height: 20px;
     color: #121212;
     margin-top: 16px; }
   .single-features .features-content .features-btn {
-    color: #0067f4;
+    color: #A6147F;
     font-size: 16px;
     font-weight: 700;
     margin-top: 29px; }
@@ -2596,7 +2600,7 @@ p {
 .portfolio-menu ul li {
   font-size: 16px;
   font-weight: 700;
-  color: #6c6c6c;
+  color: #383838;
   line-height: 48px;
   padding: 0 30px;
   position: relative;
@@ -3329,4 +3333,12 @@ span.typed-cursor {
   padding-bottom: 80%;
   padding-top: 10%;
   margin: 0 auto;
+}
+
+
+.shadow-text{
+  color: white;
+  display: inline-block;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
 }

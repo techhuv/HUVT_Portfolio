@@ -316,6 +316,7 @@ Generated using nucleoapp.com
 
 .lni-bar-chart::before {
   content: "\ea2a";
+  color: #A6147F;
 }
 
 .lni-basketball::before {
@@ -566,6 +567,7 @@ Generated using nucleoapp.com
   content: "\ea68";
 }
 
+
 .lni-cloudy-sun::before {
   content: "\ea69";
 }
@@ -576,8 +578,9 @@ Generated using nucleoapp.com
 
 .lni-code::before {
   content: "\ea6b";
+  color: #A6147F;
+  /*opacity: 100%;*/
 }
-
 .lni-codepen::before {
   content: "\ea6c";
 }
@@ -740,6 +743,7 @@ Generated using nucleoapp.com
 
 .lni-display-alt::before {
   content: "\ea94";
+  color: #A6147F;
 }
 
 .lni-display::before {
