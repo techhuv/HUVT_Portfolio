@@ -2856,7 +2856,7 @@ p {
 ===========================*/
 /*===== TESTIMONIAL STYLE THREE =====*/
 .testimonial-area {
-  padding-top: 80px;
+  padding-top: 40px;
   padding-bottom: 130px;
   background-color: #f4f6f7; }
   .testimonial-area .testimonial-left-content .sub-title {
@@ -3234,7 +3234,7 @@ p.form-message.success, p.form-message.error {
       .footer-area.footer-dark .footer-support span {
         color: #fff; }
     .footer-area.footer-dark .footer-app-store {
-      padding-top: 27px; }
+      padding-top: 2px; }
       .footer-area.footer-dark .footer-app-store ul li {
         color: #fff; }
     .footer-area.footer-dark .copyright .text {
