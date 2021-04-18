@@ -3224,7 +3224,8 @@ p.form-message.success, p.form-message.error {
         .footer-area .footer-app-store ul li {
           width: auto; } }
   .footer-area .copyright .text {
-    color: #121212; }
+    color: #121212;
+}
   .footer-area.footer-dark {
     background-color: #121212; }
     .footer-area.footer-dark .social li a {
@@ -3390,4 +3391,73 @@ span.typed-cursor {
 
 section#team {
     padding-top: 73px;
+}
+
+#perspective-beg {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  background: #f4f6f7;
+  overflow: hidden;
+  width:auto;
+  padding:110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.perspective-text p{
+  color: black;
+  font-family: Arial;
+  font-size: 58px;
+  font-weight: 900;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+}
+
+.perspective-line {
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+.perspective-line p {
+  margin: 0;
+  height: 50px;
+  line-height: 50px;
+  transition: all 0.5s ease-in-out;
+}
+
+.perspective-line:nth-child(odd) {
+  transform: skew(60deg, -30deg) scaleY(0.667);
+}
+
+.perspective-line:nth-child(even) {
+  transform: skew(0deg, -30deg) scaleY(1.337);
+}
+
+.perspective-text:hover p {
+  transform: translate(0, -50px);
+}
+
+.perspective-line:nth-child(1) {
+  left: 29px;
+}
+
+.perspective-line:nth-child(2) {
+  left: 58px;
+  background: #f07e6e;
+}
+
+.perspective-line:nth-child(3) {
+  left: 87px;
+  background: #84cdfa;
+}
+
+.perspective-line:nth-child(4) {
+  left: 116px;
+  background: #5ad1cd;
+}
+
+.perspective-line:nth-child(5) {
+  left: 145px;
 }
