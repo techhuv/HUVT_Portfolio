@@ -3531,3 +3531,31 @@ section#team {
     top: 30px;
     right: 100px;
 }
+
+
+ @media only screen and (max-width: 991px) {
+   .grid-parent{
+     height: 5rem;
+     display: flex;
+     width: 100%;
+     top: 0;
+     right: 0;
+     margin: 0;
+     text-align: center;
+     justify-content: center;
+     font-size: 1rem;
+   }
+
+   .child{
+     align-self: center;
+   }
+
+   .mail-big{
+    justify-content: right;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    font-size: 2rem;
+   }
+ }
