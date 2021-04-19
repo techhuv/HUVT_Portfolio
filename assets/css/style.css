@@ -3182,8 +3182,9 @@ p.form-message.success, p.form-message.error {
 /*===== FOOTER FIVE =====*/
 .footer-area {
   background-color: #B2B8C1;
-  padding-top: 90px;
-  padding-bottom: 120px; }
+  padding-top: 70px;
+  padding-bottom: 0; 
+  margin-bottom: 0;}
   .footer-area .social li {
     display: inline-block;
     margin: 0 5px; }
@@ -3227,6 +3228,7 @@ p.form-message.success, p.form-message.error {
           width: auto; } }
   .footer-area .copyright .text {
     color: #121212;
+    padding-bottom: 0px;
 }
   .footer-area.footer-dark {
     background-color: #121212; }
@@ -3273,14 +3275,18 @@ p.form-message.success, p.form-message.error {
 }
 
 
+
 .mail-big {
-  justify-content: center;
-  /*text-align: right;*/
-  position: absolute;
-  /*right: 0;*/
-  /*object-position: */
-  /*padding: 50px 0px 50px 0px;*/
+    justify-content: center;
+    text-align: right;
+    position: absolute;
+
+    /*left: :10px;*/
+    /* padding: 50px 0px 50px 0px; */
+    width: 100%;
+    margin: 60px 40px 10px 60px;
 }
+
 
 
 .mail-big a:link{
@@ -3499,11 +3505,12 @@ section#team {
 
 
 /* base css */
-body {
+.contact-area {
   /*padding-top: 70px;*/
-  padding: 0rem;
+  padding-top:  6rem;
+  padding-bottom: 2rem;
 }
-h3 {
+.contact-area h3 {
   /*margin: 1.5rem 0 .25em;*/
   clear: both;
 }
@@ -3515,8 +3522,12 @@ h3 {
   /*border: 1px solid indigo;*/
   padding: 0rem;
 }
-
 .grid-parent {
-  display: grid;
-  grid-template-columns: 3fr 2fr
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    width: 60%;
+    margin: -10px 10px 10px 10px;
+    position: relative;
+    top: 30px;
+    right: 100px;
 }
