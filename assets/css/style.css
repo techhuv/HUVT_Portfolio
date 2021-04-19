@@ -3277,7 +3277,7 @@ p.form-message.success, p.form-message.error {
 
 
 .mail-big {
-    justify-content: center;
+    justify-content: right;
     text-align: right;
     position: absolute;
 
