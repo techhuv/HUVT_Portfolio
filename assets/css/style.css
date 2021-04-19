@@ -3121,7 +3121,7 @@ p {
       19.CONTACT css 
 ===========================*/
 .contact-area {
-  padding-top: 120px;
+  padding-top: 70px;
   padding-bottom: 130px;
   background-color: #f4f6f7; }
 
@@ -3272,11 +3272,17 @@ p.form-message.success, p.form-message.error {
 
 
 .mail-big {
-  text-align: center;
+  justify-content: center;
+  /*text-align: right;*/
+  position: absolute;
+  /*right: 0;*/
+  /*object-position: */
+  /*padding: 50px 0px 50px 0px;*/
 }
 
 
 .mail-big a:link{
+
   color:#671965;
 }
 
@@ -3397,12 +3403,12 @@ section#team {
   display: flex;
   align-items: left;
   justify-content: left;
-  background: #f4f6f7;
+  /*background: #f4f6f7;*/
   overflow: hidden;
   width:auto;
-  padding:110px;
-  margin-left: auto;
-  margin-right: auto;
+  padding:50px 0px 50px 0px;
+  margin-left: 0px;
+  /*margin-right: auto;*/
 }
 
 .perspective-text p{
@@ -3412,6 +3418,7 @@ section#team {
   font-weight: 900;
   letter-spacing: -2px;
   text-transform: uppercase;
+
 }
 
 .perspective-line {
@@ -3460,4 +3467,52 @@ section#team {
 
 .perspective-line:nth-child(5) {
   left: 145px;
+}
+
+
+
+.float-left-child {
+  float: left;
+  /*float: right;*/
+}
+
+
+.inline-block-child {
+  display: inline-block;
+}
+
+
+.flex-parent {
+  display: flex;
+}
+.flex-child {
+  flex: 1;
+}
+
+
+.inline-flex-parent {
+  display: inline-flex;
+}
+
+
+/* base css */
+body {
+  padding: 3rem;
+}
+h3 {
+  /*margin: 1.5rem 0 .25em;*/
+  clear: both;
+}
+.parent {
+  /*background: mediumpurple;*/
+  padding: 1rem;
+}
+.child {
+  /*border: 1px solid indigo;*/
+  padding: 8rem;
+}
+
+.grid-parent {
+  display: grid;
+  grid-template-columns: 2fr 2fr
 }
