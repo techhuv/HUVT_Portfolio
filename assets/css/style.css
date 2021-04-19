@@ -3142,6 +3142,8 @@ p.form-message.success, p.form-message.error {
     .contact-map iframe {
       height: 350px; } }
 
+
+
 .contact-info .single-contact-info .contact-info-icon i {
   width: 50px;
   height: 50px;
@@ -3401,7 +3403,7 @@ section#team {
 
 #perspective-beg {
   display: flex;
-  align-items: left;
+  /*align-items: left;*/
   justify-content: left;
   /*background: #f4f6f7;*/
   overflow: hidden;
@@ -3452,17 +3454,17 @@ section#team {
 
 .perspective-line:nth-child(2) {
   left: 58px;
-  background: #f07e6e;
+  background: #B08AB7 ;
 }
 
 .perspective-line:nth-child(3) {
   left: 87px;
-  background: #84cdfa;
+  background: #F9B1C3;
 }
 
 .perspective-line:nth-child(4) {
   left: 116px;
-  background: #5ad1cd;
+  background: #F599BD;
 }
 
 .perspective-line:nth-child(5) {
@@ -3484,6 +3486,7 @@ section#team {
 
 .flex-parent {
   display: flex;
+  /*flex-flow: column;*/
 }
 .flex-child {
   flex: 1;
@@ -3497,7 +3500,8 @@ section#team {
 
 /* base css */
 body {
-  padding: 3rem;
+  /*padding-top: 70px;*/
+  padding: 0rem;
 }
 h3 {
   /*margin: 1.5rem 0 .25em;*/
@@ -3505,14 +3509,14 @@ h3 {
 }
 .parent {
   /*background: mediumpurple;*/
-  padding: 1rem;
+  padding: 0rem;
 }
 .child {
   /*border: 1px solid indigo;*/
-  padding: 8rem;
+  padding: 0rem;
 }
 
 .grid-parent {
   display: grid;
-  grid-template-columns: 2fr 2fr
+  grid-template-columns: 3fr 2fr
 }
