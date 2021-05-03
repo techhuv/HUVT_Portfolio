@@ -2602,11 +2602,12 @@ p {
 
 .portfolio-menu ul li {
   font-size: 16px;
-
+  display: inline-block;
+  max-width: 50%;
   font-weight: 700;
   color: #383838;
   line-height: 48px;
-  padding: 0 30px;
+  padding: 0 30px ;
   position: relative;
   z-index: 5;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -2633,6 +2634,7 @@ p {
       line-height: 42px; } }
   .portfolio-menu ul li::before {
     position: absolute;
+    
     content: '';
     top: 0;
     left: 0;
